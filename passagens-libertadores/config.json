@@ -37,10 +37,10 @@
   "origens_ida_e_volta": ["GRU", "GIG", "VCP", "CGH"],
 
   "alerta": {
-    "_comentario": "Alerta quando o melhor total cair pelo menos X% OU Y reais em relação ao melhor já visto, ou ficar abaixo do preco_alvo.",
+    "_comentario": "Alerta quando o melhor total cair pelo menos X% OU Y reais em relação ao melhor já visto, ou ficar abaixo do preco_alvo (total ida e volta).",
     "queda_percentual": 5,
     "queda_reais": 100,
-    "preco_alvo": 1800
+    "preco_alvo": 3500
   },
 
   "pausa_entre_buscas_segundos": 2.5

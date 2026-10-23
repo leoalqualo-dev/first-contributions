@@ -22,7 +22,7 @@ Assim, "voar do Rio é mais barato" só aparece no topo se compensar **mesmo** a
 O workflow `.github/workflows/passagens-libertadores.yml` roda **a cada 6 horas**, atualiza
 [`RELATORIO.md`](RELATORIO.md) e `dados/historico.csv`, e **abre/comenta uma issue** quando:
 - aparece um novo recorde de preço (queda ≥ 5% ou ≥ R$ 100 frente ao melhor já visto);
-- o total fica abaixo do `preco_alvo`;
+- o total fica abaixo do `preco_alvo` (R$ 3.500 ida e volta);
 - alguma rota cai ≥ 5% desde a pesquisa anterior.
 
 O GitHub manda e-mail a cada comentário na issue. Para rodar na hora: aba **Actions** →

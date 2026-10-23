@@ -30,6 +30,8 @@ ARQ_ESTADO = PASTA / "dados" / "estado.json"
 ARQ_HISTORICO = PASTA / "dados" / "historico.csv"
 ARQ_RELATORIO = PASTA / "RELATORIO.md"
 ARQ_ALERTA = PASTA / "dados" / "alerta.md"
+ARQ_TODAS = PASTA / "TODAS_AS_OPCOES.md"
+ARQ_TODAS_CSV = PASTA / "dados" / "todas_opcoes.csv"
 
 DIAS_SEMANA = ["seg", "ter", "qua", "qui", "sex", "sáb", "dom"]
 
@@ -137,7 +139,7 @@ def melhor_voo(voos: list[Voo], chegada_limite: datetime | None = None, horas_ex
     return min(validos, key=lambda v: (v.preco, v.duracao_min), default=None)
 
 
-def coletar(cfg: dict, rapido: bool) -> tuple[list[Opcao], int, int]:
+def coletar(cfg: dict, rapido: bool) -> tuple[list[Opcao], list, list, int, int]:
     origens = {o["codigo"]: o for o in cfg["origens"]}
     destinos = {d["codigo"]: d for d in cfg["destinos"]}
     if rapido:
@@ -230,7 +232,7 @@ def coletar(cfg: dict, rapido: bool) -> tuple[list[Opcao], int, int]:
                     ))
 
     opcoes.sort(key=lambda op: (op.total, op.ida.duracao_min))
-    return opcoes, buscas_ok, buscas_falhas
+    return opcoes, idas, voltas, buscas_ok, buscas_falhas
 
 
 def carregar_estado() -> dict:
@@ -349,6 +351,65 @@ def montar_relatorio(cfg, opcoes, estado, motivos, variacoes, agora, ok, falhas)
     return "\n".join(L)
 
 
+def _linha_trecho(v: Voo, local: dict, extra: str) -> str:
+    paradas = "direto" if v.paradas == 0 else f"{v.paradas} parada(s)"
+    h, m = divmod(v.duracao_min, 60)
+    return (f"| {_formatar_data(v.data)} | {v.origem}→{v.destino} | {_reais(v.preco)} | {', '.join(v.cias)} | "
+            f"{_formatar_hora(v.partida)} | {_formatar_hora(v.chegada)} | {paradas}, {h}h{m:02d} | {extra} | "
+            f"[ver]({v.link}) |")
+
+
+def montar_todas(cfg, opcoes, idas, voltas, agora) -> str:
+    """Lista completa: todos os trechos encontrados e todas as combinações até o preço-alvo."""
+    alvo = cfg["alerta"].get("preco_alvo") or 10**9
+    cab = "| Data | Trecho | Preço | Cia(s) | Sai | Chega | Paradas/duração | Obs. | Link |\n|---|---|---|---|---|---|---|---|---|"
+    L = [f"# Todas as possibilidades — pesquisa de {agora:%d/%m/%Y %H:%M}", "",
+         f"Preço-alvo: {_reais(alvo)} (total ida e volta). Para cada trecho/data aparece o voo mais barato que chega a tempo.", ""]
+
+    rts = [op for op in opcoes if op.tipo == "ida e volta"]
+    L += [f"## Ida e volta no mesmo bilhete ({len(rts)})", "",
+          "| Total | Passagem | Deslocamento | Roteiro | Cia(s) | Sai | Chega | Link |", "|---|---|---|---|---|---|---|---|"]
+    for op in rts:
+        v = op.ida
+        L.append(f"| **{_reais(op.total)}** | {_reais(op.preco_passagens)} | {_reais(op.custo_extra)} | {op.descricao} | "
+                 f"{', '.join(v.cias)} | {_formatar_hora(v.partida)} | {_formatar_hora(v.chegada)} | [ver]({v.link}) |")
+
+    L += ["", f"## Todos os trechos de IDA ({len(idas)})", "", cab]
+    for v, o, de in sorted(idas, key=lambda t: t[0].preco):
+        L.append(_linha_trecho(v, o, f"deslocamento {_reais(o['custo_deslocamento'] // 2)}"
+                               + (f"; + {de['cidade']}" if de["codigo"] != "MVD" else "")))
+
+    L += ["", f"## Todos os trechos de VOLTA ({len(voltas)})", "", cab]
+    for v, o, de in sorted(voltas, key=lambda t: t[0].preco):
+        L.append(_linha_trecho(v, o, f"deslocamento {_reais(o['custo_deslocamento'] // 2)}"
+                               + (f"; saindo de {de['cidade']}" if de["codigo"] != "MVD" else "")))
+
+    ate_alvo = [op for op in opcoes if op.total <= alvo]
+    limite = 400
+    L += ["", f"## Todas as combinações até {_reais(alvo)} ({len(ate_alvo)})", ""]
+    if len(ate_alvo) > limite:
+        L += [f"Mostrando as {limite} mais baratas; a lista completa está em `dados/todas_opcoes.csv`.", ""]
+    L += ["| # | Total | Passagens | Extras | Tipo | Roteiro | Obs. |", "|---|---|---|---|---|---|---|"]
+    for i, op in enumerate(ate_alvo[:limite], 1):
+        L.append(f"| {i} | **{_reais(op.total)}** | {_reais(op.preco_passagens)} | {_reais(op.custo_extra)} | "
+                 f"{op.tipo} | {op.descricao} | {'; '.join(op.observacoes) or '—'} |")
+    L.append("")
+    return "\n".join(L)
+
+
+def salvar_todas_csv(opcoes: list[Opcao]) -> None:
+    with open(ARQ_TODAS_CSV, "w", newline="", encoding="utf-8") as f:
+        w = csv.writer(f)
+        w.writerow(["posicao", "total", "passagens", "extras", "tipo", "roteiro", "obs",
+                    "ida_cias", "ida_sai", "ida_chega", "volta_cias", "volta_sai", "volta_chega"])
+        for i, op in enumerate(opcoes, 1):
+            vv = op.volta
+            w.writerow([i, op.total, op.preco_passagens, op.custo_extra, op.tipo, op.descricao, "; ".join(op.observacoes),
+                        "/".join(op.ida.cias), _formatar_hora(op.ida.partida), _formatar_hora(op.ida.chegada),
+                        "/".join(vv.cias) if vv else "", _formatar_hora(vv.partida) if vv else "",
+                        _formatar_hora(vv.chegada) if vv else ""])
+
+
 def notificar_telegram(texto: str) -> None:
     token, chat = os.environ.get("TELEGRAM_TOKEN"), os.environ.get("TELEGRAM_CHAT_ID")
     if not (token and chat):
@@ -368,7 +429,7 @@ def main() -> int:
 
     cfg = carregar_config()
     agora = datetime.now(timezone(timedelta(hours=-3))).replace(tzinfo=None)  # horário de Brasília
-    opcoes, ok, falhas = coletar(cfg, args.rapido)
+    opcoes, idas, voltas, ok, falhas = coletar(cfg, args.rapido)
 
     if not opcoes:
         print(f"Nenhuma opção encontrada ({ok} buscas ok, {falhas} com erro). Nada foi salvo.")
@@ -379,6 +440,8 @@ def main() -> int:
     salvar(opcoes, estado, agora)
     relatorio = montar_relatorio(cfg, opcoes, estado, motivos, variacoes, agora, ok, falhas)
     ARQ_RELATORIO.write_text(relatorio, encoding="utf-8")
+    ARQ_TODAS.write_text(montar_todas(cfg, opcoes, idas, voltas, agora), encoding="utf-8")
+    salvar_todas_csv(opcoes)
 
     print()
     print(f"Melhor agora: {_reais(opcoes[0].total)} — {opcoes[0].descricao}")
