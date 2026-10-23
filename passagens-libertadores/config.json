@@ -10,6 +10,9 @@
   "_chegada_limite": "Voos de ida que chegam depois disso no dia 28 são descartados (o horário do jogo ainda não saiu; ajuste quando a CONMEBOL divulgar).",
   "chegada_limite": "2026-11-28T13:00",
 
+  "_saida_minima_volta": "Voos de volta saindo de Montevidéu antes disso são descartados. Para Punta del Este/Buenos Aires soma-se horas_extra (ex.: Buenos Aires = 07:00 + 4h de barco = só voos a partir de 11:00).",
+  "saida_minima_volta": "2026-11-29T07:00",
+
   "max_paradas": 1,
 
   "origens": [

@@ -168,10 +168,13 @@ def ler_pagina(html: str) -> list[tuple[int, list[str], list[tuple]]]:
     return resultado
 
 
-def melhor_voo(voos: list[Voo], chegada_limite: datetime | None = None, horas_extra: float = 0) -> Voo | None:
-    """O voo mais barato que chega a tempo (considerando o traslado até Montevidéu)."""
+def melhor_voo(voos: list[Voo], chegada_limite: datetime | None = None, horas_extra: float = 0,
+              saida_minima: datetime | None = None) -> Voo | None:
+    """O voo mais barato que dá tempo de pegar (considerando o traslado de/para Montevidéu)."""
     validos = []
     for v in voos:
+        if saida_minima and v.partida and v.partida < saida_minima + timedelta(hours=horas_extra):
+            continue
         if chegada_limite and v.chegada and v.chegada + timedelta(hours=horas_extra) > chegada_limite:
             continue
         validos.append(v)
@@ -185,6 +188,7 @@ def coletar(cfg: dict, rapido: bool) -> tuple[list[Opcao], list, list, int, int]
         origens = {k: v for k, v in origens.items() if k in cfg["origens_ida_e_volta"]}
         destinos = {k: v for k, v in destinos.items() if k == "MVD"}
     limite = datetime.fromisoformat(cfg["chegada_limite"])
+    saida_minima = datetime.fromisoformat(cfg["saida_minima_volta"])
     pausa = cfg.get("pausa_entre_buscas_segundos", 2)
 
     buscas_ok = buscas_falhas = 0
@@ -222,7 +226,8 @@ def coletar(cfg: dict, rapido: bool) -> tuple[list[Opcao], list, list, int, int]
     for o in origens.values():
         for de in destinos.values():
             for d in cfg["datas_volta"]:
-                v = melhor_voo(tentar([(de["codigo"], o["codigo"], d)], "one-way"))
+                v = melhor_voo(tentar([(de["codigo"], o["codigo"], d)], "one-way"),
+                               horas_extra=de["horas_extra"], saida_minima=saida_minima)
                 if v:
                     voltas.append((v, o, de))
 
