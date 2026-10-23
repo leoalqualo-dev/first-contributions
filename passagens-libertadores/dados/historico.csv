@@ -29,3 +29,13 @@ quando,posicao,tipo,descricao,passagens,extras,total,cias
 2026-10-23T10:39,8,trechos separados,FLN→AEP sex 27/11 / MVD→POA seg 30/11,2743,1525,4268,Aerolineas Argentinas/JetSMART
 2026-10-23T10:39,9,trechos separados,CWB→PDP qua 25/11 / MVD→POA seg 30/11,3767,515,4282,Aerolineas Argentinas
 2026-10-23T10:39,10,trechos separados,GIG→AEP qua 25/11 / MVD→CWB seg 30/11,3021,1290,4311,Aerolineas Argentinas/JetSMART
+2026-10-23T13:47,1,trechos separados,CWB→MVD qua 25/11 / PDP→CWB ter 01/12,2880,355,3235,Aerolineas Argentinas
+2026-10-23T13:47,2,trechos separados,GIG→PDP qui 26/11 / PDP→CWB ter 01/12,2934,440,3374,Aerolineas Argentinas
+2026-10-23T13:47,3,trechos separados,CWB→MVD qua 25/11 / PDP→GRU ter 01/12,3190,255,3445,Aerolineas Argentinas
+2026-10-23T13:47,4,trechos separados,GIG→AEP qui 26/11 / PDP→CWB ter 01/12,2175,1365,3540,Aerolineas Argentinas
+2026-10-23T13:47,5,trechos separados,CWB→MVD qua 25/11 / PDP→POA ter 01/12,3063,515,3578,Aerolineas Argentinas
+2026-10-23T13:47,6,trechos separados,GIG→PDP qui 26/11 / PDP→GRU ter 01/12,3244,340,3584,Aerolineas Argentinas
+2026-10-23T13:47,7,trechos separados,CWB→MVD qua 25/11 / MVD→CWB ter 01/12,3327,280,3607,Aerolineas Argentinas
+2026-10-23T13:47,8,trechos separados,GIG→AEP qua 25/11 / PDP→CWB ter 01/12,2291,1365,3656,Aerolineas Argentinas/Gol
+2026-10-23T13:47,9,trechos separados,GIG→AEP sex 27/11 / PDP→CWB ter 01/12,2291,1365,3656,Aerolineas Argentinas/JetSMART
+2026-10-23T13:47,10,trechos separados,CWB→MVD qua 25/11 / PDP→GIG ter 01/12,3307,365,3672,Aerolineas Argentinas
