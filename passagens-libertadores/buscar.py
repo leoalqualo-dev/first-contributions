@@ -22,7 +22,8 @@ from dataclasses import dataclass, field
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
-from fast_flights import FlightQuery, Passengers, create_query, get_flights
+from fast_flights import FlightQuery, Passengers, create_query, fetch_flights_html
+from selectolax.lexbor import LexborHTMLParser
 
 PASTA = Path(__file__).resolve().parent
 ARQ_CONFIG = PASTA / "config.json"
@@ -75,13 +76,6 @@ def carregar_config() -> dict:
         return json.load(f)
 
 
-def _datahora(sd) -> datetime | None:
-    try:
-        return datetime(*sd.date, *sd.time)
-    except (TypeError, ValueError):
-        return None
-
-
 def _formatar_data(iso: str) -> str:
     d = datetime.strptime(iso, "%Y-%m-%d")
     return f"{DIAS_SEMANA[d.weekday()]} {d:%d/%m}"
@@ -106,27 +100,72 @@ def pesquisar(cfg: dict, trechos: list[tuple[str, str, str]], tipo: str) -> list
         currency=cfg["moeda"],
         max_stops=cfg.get("max_paradas"),
     )
-    resultado = get_flights(q)
     voos = []
     o, de, d = trechos[0]
-    for r in resultado:
-        if not r.flights or not r.price:
-            continue
+    for preco, cias, segmentos in ler_pagina(fetch_flights_html(q)):
         voos.append(
             Voo(
                 origem=o,
                 destino=de,
                 data=d,
-                preco=int(r.price),
-                cias=list(r.airlines),
-                partida=_datahora(r.flights[0].departure),
-                chegada=_datahora(r.flights[-1].arrival),
-                paradas=len(r.flights) - 1,
-                duracao_min=sum(s.duration or 0 for s in r.flights),
+                preco=preco,
+                cias=cias,
+                partida=segmentos[0][0],
+                chegada=segmentos[-1][1],
+                paradas=len(segmentos) - 1,
+                duracao_min=sum(s[2] for s in segmentos),
                 link=q.url(),
             )
         )
     return voos
+
+
+def _hora(valor) -> tuple[int, int]:
+    # O Google omite componentes zero: [8] = 08:00, [None, 31] = 00:31
+    v = [*(valor or []), None, None]
+    return (v[0] or 0, v[1] or 0)
+
+
+def ler_pagina(html: str) -> list[tuple[int, list[str], list[tuple]]]:
+    """Lê os voos da página do Google Flights.
+
+    Versão tolerante do parser do fast-flights: lê tanto os "melhores voos" quanto
+    os "outros voos" e pula itens com formato inesperado em vez de perder a página toda.
+    """
+    script = LexborHTMLParser(html).css_first(r"script.ds\:1")
+    if script is None:
+        raise RuntimeError("página sem dados de voos (possível bloqueio temporário do Google)")
+    dados = script.text().split("data:", 1)[1].rsplit(",", 1)[0]
+    if dados.endswith("errorHasStatus: true"):
+        return []  # o Google respondeu que não há voos para essa busca
+    payload = json.loads(dados)
+
+    vistos, resultado = set(), []
+    for bloco in (2, 3):
+        try:
+            itens = payload[bloco][0] or []
+        except (IndexError, TypeError):
+            continue
+        for item in itens:
+            try:
+                voo, preco = item[0], item[1][0][1]
+                if not preco:
+                    continue
+                segmentos = []
+                for s in voo[2]:
+                    partida = datetime(*s[20], *_hora(s[8]))
+                    chegada = datetime(*s[21], *_hora(s[10]))
+                    segmentos.append((partida, chegada, s[11] or 0))
+                if not segmentos:
+                    continue
+                cias = [c for c in (voo[1] or []) if isinstance(c, str)]
+            except (IndexError, TypeError, ValueError):
+                continue
+            chave = (preco, segmentos[0][0], tuple(cias))
+            if chave not in vistos:
+                vistos.add(chave)
+                resultado.append((int(preco), cias, segmentos))
+    return resultado
 
 
 def melhor_voo(voos: list[Voo], chegada_limite: datetime | None = None, horas_extra: float = 0) -> Voo | None:
