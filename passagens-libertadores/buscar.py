@@ -466,12 +466,43 @@ def notificar_telegram(texto: str) -> None:
         print(f"Falha ao enviar Telegram: {e}")
 
 
+def consulta(cfg: dict, arquivo: Path) -> int:
+    """Consulta rápida: lista TODOS os voos de cada trecho do arquivo (uma linha: ORIGEM DESTINO AAAA-MM-DD)."""
+    agora = datetime.now(timezone(timedelta(hours=-3))).replace(tzinfo=None)
+    L = [f"# Consulta rápida — {agora:%d/%m/%Y %H:%M}", "",
+         "Todos os voos encontrados para cada trecho (1 adulto, Google Flights). Edite `consulta.txt` para mudar.", ""]
+    for linha in arquivo.read_text(encoding="utf-8").splitlines():
+        partes = linha.split("#", 1)[0].split()
+        if len(partes) != 3:
+            continue
+        o, de, d = partes
+        try:
+            voos = sorted(pesquisar(cfg, [(o, de, d)], "one-way"), key=lambda v: (v.preco, v.duracao_min))
+        except Exception as e:  # noqa: BLE001
+            L += [f"## {o}→{de} {_formatar_data(d)}", "", f"Erro na busca: {e}", ""]
+            continue
+        print(f"{o}→{de} {d}: {len(voos)} voos" + (f", a partir de {_reais(voos[0].preco)}" if voos else ""))
+        L += [f"## {o}→{de} {_formatar_data(d)} — {len(voos)} voos", ""]
+        if voos:
+            L += [f"[abrir no Google Flights]({voos[0].link})", "",
+                  "| Preço | Cia(s) | Sai | Chega | Paradas |", "|---|---|---|---|---|"]
+            L += [f"| {_reais(v.preco)} | {', '.join(v.cias)} | {_formatar_hora(v.partida)} | {_formatar_hora(v.chegada)} | "
+                  f"{'direto' if v.paradas == 0 else f'{v.paradas} parada(s)'} |" for v in voos]
+        L.append("")
+        time.sleep(cfg.get("pausa_entre_buscas_segundos", 2))
+    (PASTA / "CONSULTA.md").write_text("\n".join(L), encoding="utf-8")
+    return 0
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--rapido", action="store_true", help="pesquisa reduzida (teste)")
+    ap.add_argument("--consulta", metavar="ARQ", help="só consulta os trechos listados no arquivo (ex.: consulta.txt)")
     args = ap.parse_args()
 
     cfg = carregar_config()
+    if args.consulta:
+        return consulta(cfg, Path(args.consulta))
     agora = datetime.now(timezone(timedelta(hours=-3))).replace(tzinfo=None)  # horário de Brasília
     opcoes, idas, voltas, ok, falhas = coletar(cfg, args.rapido)
 

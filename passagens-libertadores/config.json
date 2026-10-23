@@ -5,7 +5,7 @@
   "moeda": "BRL",
 
   "datas_ida": ["2026-11-25", "2026-11-26", "2026-11-27", "2026-11-28"],
-  "datas_volta": ["2026-11-29", "2026-11-30"],
+  "datas_volta": ["2026-11-29", "2026-11-30", "2026-12-01"],
 
   "_chegada_limite": "Voos de ida que chegam depois disso no dia 28 são descartados (o horário do jogo ainda não saiu; ajuste quando a CONMEBOL divulgar).",
   "chegada_limite": "2026-11-28T13:00",
