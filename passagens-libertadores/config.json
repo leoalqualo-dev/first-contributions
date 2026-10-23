@@ -28,12 +28,12 @@
     {"codigo": "BSB", "cidade": "Brasília", "custo_deslocamento": 600}
   ],
 
-  "_destinos": "custo_extra = quanto custa (R$, ida+volta) ir do aeroporto até Montevidéu. Buenos Aires = Buquebus/Colonia Express pelo Rio da Prata (~2h30 a 4h).",
+  "_destinos": "custo_extra = quanto custa (R$, ida+volta) ir do aeroporto até Montevidéu. Buenos Aires = Buquebus/Colonia Express pelo Rio da Prata (~2h30 a 4h), US$ 160-220 por trecho em 2026 (deve subir na final) + traslado aeroporto-porto.",
   "destinos": [
     {"codigo": "MVD", "cidade": "Montevidéu", "custo_extra": 0, "horas_extra": 0},
     {"codigo": "PDP", "cidade": "Punta del Este (ônibus ~2h até Montevidéu)", "custo_extra": 150, "horas_extra": 2},
-    {"codigo": "AEP", "cidade": "Buenos Aires Aeroparque (+ barco até Montevidéu)", "custo_extra": 900, "horas_extra": 4},
-    {"codigo": "EZE", "cidade": "Buenos Aires Ezeiza (+ barco até Montevidéu)", "custo_extra": 1000, "horas_extra": 5}
+    {"codigo": "AEP", "cidade": "Buenos Aires Aeroparque (+ barco até Montevidéu)", "custo_extra": 2000, "horas_extra": 4},
+    {"codigo": "EZE", "cidade": "Buenos Aires Ezeiza (+ barco até Montevidéu)", "custo_extra": 2200, "horas_extra": 5}
   ],
 
   "_ida_e_volta": "Também pesquisa ida-e-volta na mesma companhia (às vezes sai mais barato que dois trechos separados). Lista de origens para isso (para não fazer pesquisas demais).",
