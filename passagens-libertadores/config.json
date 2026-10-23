@@ -1,0 +1,47 @@
+{
+  "_comentario": "Edite à vontade. custo_deslocamento = quanto custa (R$) sair de casa e chegar nesse aeroporto (ida + volta somadas). Valores iniciais são estimativas para quem mora em São Paulo.",
+
+  "passageiros_adultos": 1,
+  "moeda": "BRL",
+
+  "datas_ida": ["2026-11-25", "2026-11-26", "2026-11-27", "2026-11-28"],
+  "datas_volta": ["2026-11-29", "2026-11-30"],
+
+  "_chegada_limite": "Voos de ida que chegam depois disso no dia 28 são descartados (o horário do jogo ainda não saiu; ajuste quando a CONMEBOL divulgar).",
+  "chegada_limite": "2026-11-28T13:00",
+
+  "max_paradas": 1,
+
+  "origens": [
+    {"codigo": "GRU", "cidade": "São Paulo (Guarulhos)", "custo_deslocamento": 80},
+    {"codigo": "CGH", "cidade": "São Paulo (Congonhas)", "custo_deslocamento": 40},
+    {"codigo": "VCP", "cidade": "Campinas (Viracopos)", "custo_deslocamento": 0, "_obs": "Azul tem ônibus grátis de SP para Viracopos"},
+    {"codigo": "GIG", "cidade": "Rio de Janeiro (Galeão)", "custo_deslocamento": 300},
+    {"codigo": "SDU", "cidade": "Rio de Janeiro (Santos Dumont)", "custo_deslocamento": 300},
+    {"codigo": "CWB", "cidade": "Curitiba", "custo_deslocamento": 280},
+    {"codigo": "FLN", "cidade": "Florianópolis", "custo_deslocamento": 450},
+    {"codigo": "POA", "cidade": "Porto Alegre", "custo_deslocamento": 600},
+    {"codigo": "CNF", "cidade": "Belo Horizonte (Confins)", "custo_deslocamento": 350},
+    {"codigo": "BSB", "cidade": "Brasília", "custo_deslocamento": 600}
+  ],
+
+  "_destinos": "custo_extra = quanto custa (R$, ida+volta) ir do aeroporto até Montevidéu. Buenos Aires = Buquebus/Colonia Express pelo Rio da Prata (~2h30 a 4h).",
+  "destinos": [
+    {"codigo": "MVD", "cidade": "Montevidéu", "custo_extra": 0, "horas_extra": 0},
+    {"codigo": "PDP", "cidade": "Punta del Este (ônibus ~2h até Montevidéu)", "custo_extra": 150, "horas_extra": 2},
+    {"codigo": "AEP", "cidade": "Buenos Aires Aeroparque (+ barco até Montevidéu)", "custo_extra": 900, "horas_extra": 4},
+    {"codigo": "EZE", "cidade": "Buenos Aires Ezeiza (+ barco até Montevidéu)", "custo_extra": 1000, "horas_extra": 5}
+  ],
+
+  "_ida_e_volta": "Também pesquisa ida-e-volta na mesma companhia (às vezes sai mais barato que dois trechos separados). Lista de origens para isso (para não fazer pesquisas demais).",
+  "origens_ida_e_volta": ["GRU", "GIG", "VCP", "CGH"],
+
+  "alerta": {
+    "_comentario": "Alerta quando o melhor total cair pelo menos X% OU Y reais em relação ao melhor já visto, ou ficar abaixo do preco_alvo.",
+    "queda_percentual": 5,
+    "queda_reais": 100,
+    "preco_alvo": 1800
+  },
+
+  "pausa_entre_buscas_segundos": 2.5
+}

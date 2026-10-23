@@ -1,0 +1,64 @@
+name: Passagens final Libertadores
+
+on:
+  schedule:
+    # A cada 6 horas (horário UTC: 00, 06, 12, 18 → 21h, 3h, 9h, 15h em Brasília)
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+    inputs:
+      rapido:
+        description: "Pesquisa rápida (só MVD, poucas origens)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: passagens-libertadores
+  cancel-in-progress: false
+
+jobs:
+  buscar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    defaults:
+      run:
+        working-directory: passagens-libertadores
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependências
+        run: pip install -r requirements.txt
+
+      - name: Pesquisar passagens
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python buscar.py ${{ inputs.rapido && '--rapido' || '' }}
+
+      - name: Avisar no GitHub (issue com comentário a cada alerta)
+        if: hashFiles('passagens-libertadores/dados/alerta.md') != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          titulo="🚨 Alertas de passagens — final da Libertadores"
+          numero=$(gh issue list --state open --search "in:title \"$titulo\"" --json number --jq '.[0].number')
+          if [ -z "$numero" ]; then
+            gh issue create --title "$titulo" --body-file dados/alerta.md --assignee "${{ github.repository_owner }}"
+          else
+            gh issue comment "$numero" --body-file dados/alerta.md
+          fi
+
+      - name: Salvar relatório e histórico
+        run: |
+          git config user.name "rastreador-passagens"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add RELATORIO.md dados/estado.json dados/historico.csv
+          git diff --cached --quiet || git commit -m "Passagens: atualização $(date -u +'%d/%m %H:%M') UTC"
+          git pull --rebase && git push
