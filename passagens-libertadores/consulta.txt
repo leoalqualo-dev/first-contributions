@@ -1,5 +1,6 @@
 # Consulta rápida: uma linha por trecho -> ORIGEM DESTINO AAAA-MM-DD
 # Salvar (push) este arquivo dispara a consulta no GitHub; o resultado vai para CONSULTA.md
+# Última consulta pedida: 29/10
 
 # Ida pelo plano: Curitiba -> Montevidéu (e dias vizinhos)
 CWB MVD 2026-11-25
