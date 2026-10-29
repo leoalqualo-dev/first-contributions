@@ -49,3 +49,13 @@ quando,posicao,tipo,descricao,passagens,extras,total,cias
 2026-10-26T10:07,8,trechos separados,CWB→AEP qui 26/11 / PDP→GRU ter 01/12,2610,1255,3865,Aerolineas Argentinas/Gol
 2026-10-26T10:07,9,trechos separados,CWB→AEP sex 27/11 / PDP→POA ter 01/12,2352,1515,3867,Aerolineas Argentinas/Gol
 2026-10-26T10:07,10,trechos separados,CWB→AEP qua 25/11 / PDP→POA ter 01/12,2352,1515,3867,Aerolineas Argentinas/Gol
+2026-10-29T15:57,1,trechos separados,CNF→MVD sex 27/11 / PDP→POA ter 01/12,3193,550,3743,Aerolineas Argentinas/Gol
+2026-10-29T15:57,2,trechos separados,GIG→AEP qua 25/11 / PDP→POA ter 01/12,2224,1525,3749,Aerolineas Argentinas/Gol
+2026-10-29T15:57,3,trechos separados,CWB→MVD qui 26/11 / PDP→POA ter 01/12,3234,515,3749,Aerolineas Argentinas/Gol
+2026-10-29T15:57,4,trechos separados,CWB→MVD sex 27/11 / PDP→POA ter 01/12,3239,515,3754,Aerolineas Argentinas/Gol
+2026-10-29T15:57,5,trechos separados,CWB→MVD qua 25/11 / PDP→POA ter 01/12,3239,515,3754,Aerolineas Argentinas/Gol
+2026-10-29T15:57,6,trechos separados,VCP→MVD qui 26/11 / PDP→POA ter 01/12,3379,375,3754,Aerolineas Argentinas/Gol
+2026-10-29T15:57,7,trechos separados,GRU→MVD qui 26/11 / PDP→POA ter 01/12,3381,415,3796,Aerolineas Argentinas/Gol
+2026-10-29T15:57,8,trechos separados,CGH→MVD qui 26/11 / PDP→POA ter 01/12,3408,395,3803,Aerolineas Argentinas/Gol
+2026-10-29T15:57,9,trechos separados,CNF→MVD sex 27/11 / MVD→POA ter 01/12,3360,475,3835,Aerolineas Argentinas/Gol
+2026-10-29T15:57,10,trechos separados,GIG→AEP qua 25/11 / MVD→POA ter 01/12,2391,1450,3841,Aerolineas Argentinas/Gol
