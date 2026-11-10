@@ -1,133 +1,226 @@
-# Consulta rápida — 29/10/2026 15:57
+# Consulta rápida — 10/11/2026 13:59
 
 Todos os voos encontrados para cada trecho (1 adulto, Google Flights). Edite `consulta.txt` para mudar.
 
-## CWB→MVD qua 25/11 — 3 voos
+## GRU→BSB sex 04/12 — 10 voos
 
-[abrir no Google Flights](https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTEtMjUoAWoFEgNDV0JyBRIDTVZEQgEBSAGYAQI=&hl=pt-BR&curr=BRL)
-
-| Preço | Cia(s) | Sai | Chega | Paradas |
-|---|---|---|---|---|
-| R$ 1.774 | Gol | 25/11 06:10 | 25/11 12:25 | 1 parada(s) |
-| R$ 1.974 | Aerolineas Argentinas | 25/11 10:00 | 25/11 20:35 | 1 parada(s) |
-| R$ 2.626 | Aerolineas Argentinas | 25/11 10:00 | 25/11 17:35 | 1 parada(s) |
-
-## CWB→MVD qui 26/11 — 3 voos
-
-[abrir no Google Flights](https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTEtMjYoAWoFEgNDV0JyBRIDTVZEQgEBSAGYAQI=&hl=pt-BR&curr=BRL)
+[abrir no Google Flights](https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTItMDQoAWoFEgNHUlVyBRIDQlNCQgEBSAGYAQI=&hl=pt-BR&curr=BRL)
 
 | Preço | Cia(s) | Sai | Chega | Paradas |
 |---|---|---|---|---|
-| R$ 1.769 | Gol | 26/11 05:30 | 26/11 11:35 | 1 parada(s) |
-| R$ 1.774 | Gol | 26/11 06:10 | 26/11 12:25 | 1 parada(s) |
-| R$ 1.774 | Gol | 26/11 19:35 | 27/11 02:05 | 1 parada(s) |
+| R$ 1.247 | Gol | 04/12 06:00 | 04/12 07:45 | direto |
+| R$ 1.247 | Gol | 04/12 16:25 | 04/12 18:10 | direto |
+| R$ 1.624 | Azul | 04/12 06:00 | 04/12 09:35 | 1 parada(s) |
+| R$ 1.634 | LATAM | 04/12 09:35 | 04/12 11:20 | direto |
+| R$ 1.634 | Gol | 04/12 10:05 | 04/12 11:50 | direto |
+| R$ 1.634 | LATAM | 04/12 17:55 | 04/12 19:40 | direto |
+| R$ 1.634 | LATAM | 04/12 21:00 | 04/12 22:45 | direto |
+| R$ 1.634 | Gol | 04/12 21:40 | 04/12 23:25 | direto |
+| R$ 1.634 | LATAM | 04/12 06:45 | 04/12 08:35 | direto |
+| R$ 1.988 | LATAM | 04/12 14:25 | 04/12 16:15 | direto |
 
-## CWB→MVD sex 27/11 — 5 voos
+## CGH→BSB sex 04/12 — 29 voos
 
-[abrir no Google Flights](https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTEtMjcoAWoFEgNDV0JyBRIDTVZEQgEBSAGYAQI=&hl=pt-BR&curr=BRL)
-
-| Preço | Cia(s) | Sai | Chega | Paradas |
-|---|---|---|---|---|
-| R$ 1.774 | Gol | 27/11 11:00 | 27/11 19:45 | 1 parada(s) |
-| R$ 1.774 | Gol | 27/11 19:35 | 28/11 02:05 | 1 parada(s) |
-| R$ 1.908 | Gol | 27/11 11:05 | 27/11 17:45 | 1 parada(s) |
-| R$ 2.062 | Gol | 27/11 06:10 | 27/11 12:25 | 1 parada(s) |
-| R$ 7.635 | LATAM | 27/11 17:20 | 28/11 10:53 | 1 parada(s) |
-
-## MVD→GRU dom 29/11 — 6 voos
-
-[abrir no Google Flights](https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTEtMjkoAWoFEgNNVkRyBRIDR1JVQgEBSAGYAQI=&hl=pt-BR&curr=BRL)
+[abrir no Google Flights](https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTItMDQoAWoFEgNDR0hyBRIDQlNCQgEBSAGYAQI=&hl=pt-BR&curr=BRL)
 
 | Preço | Cia(s) | Sai | Chega | Paradas |
 |---|---|---|---|---|
-| R$ 5.387 | LATAM | 29/11 07:40 | 30/11 04:15 | 1 parada(s) |
-| R$ 6.110 | LATAM | 29/11 07:40 | 29/11 20:05 | 1 parada(s) |
-| R$ 7.063 | Aerolineas Argentinas, Gol | 29/11 18:25 | 30/11 11:45 | 1 parada(s) |
-| R$ 7.063 | Aerolineas Argentinas, Gol | 29/11 21:35 | 30/11 16:25 | 1 parada(s) |
-| R$ 8.210 | Aerolineas Argentinas, Gol | 29/11 18:25 | 30/11 06:05 | 1 parada(s) |
-| R$ 9.166 | LATAM | 29/11 18:45 | 30/11 08:45 | 1 parada(s) |
+| R$ 1.229 | LATAM | 04/12 07:45 | 04/12 09:30 | direto |
+| R$ 1.229 | LATAM | 04/12 08:25 | 04/12 10:10 | direto |
+| R$ 1.229 | LATAM | 04/12 06:00 | 04/12 07:50 | direto |
+| R$ 1.229 | Gol | 04/12 08:05 | 04/12 09:55 | direto |
+| R$ 1.409 | Gol | 04/12 06:40 | 04/12 08:30 | direto |
+| R$ 1.626 | LATAM | 04/12 18:15 | 04/12 19:50 | direto |
+| R$ 1.626 | LATAM | 04/12 07:15 | 04/12 09:00 | direto |
+| R$ 1.626 | LATAM | 04/12 09:50 | 04/12 11:35 | direto |
+| R$ 1.626 | LATAM | 04/12 12:05 | 04/12 13:50 | direto |
+| R$ 1.626 | LATAM | 04/12 13:30 | 04/12 15:15 | direto |
+| R$ 1.626 | LATAM | 04/12 15:20 | 04/12 17:05 | direto |
+| R$ 1.626 | LATAM | 04/12 21:10 | 04/12 22:55 | direto |
+| R$ 1.626 | Gol | 04/12 06:05 | 04/12 07:55 | direto |
+| R$ 1.626 | Gol | 04/12 18:15 | 04/12 20:05 | direto |
+| R$ 1.957 | LATAM | 04/12 19:10 | 04/12 20:55 | direto |
+| R$ 1.957 | Gol | 04/12 09:05 | 04/12 10:55 | direto |
+| R$ 1.957 | Gol | 04/12 13:35 | 04/12 15:25 | direto |
+| R$ 1.957 | Gol | 04/12 15:55 | 04/12 17:45 | direto |
+| R$ 1.957 | Gol | 04/12 21:55 | 04/12 23:45 | direto |
+| R$ 1.970 | Azul | 04/12 18:35 | 04/12 20:25 | direto |
+| R$ 2.071 | Azul | 04/12 06:45 | 04/12 08:30 | direto |
+| R$ 2.071 | Azul | 04/12 14:15 | 04/12 16:00 | direto |
+| R$ 2.096 | Azul | 04/12 17:20 | 04/12 19:05 | direto |
+| R$ 2.235 | Gol | 04/12 17:10 | 04/12 19:00 | direto |
+| R$ 2.427 | Gol | 04/12 12:00 | 04/12 13:50 | direto |
+| R$ 2.427 | Gol | 04/12 20:25 | 04/12 22:15 | direto |
+| R$ 2.893 | Azul | 04/12 09:05 | 04/12 10:55 | direto |
+| R$ 3.290 | LATAM | 04/12 09:15 | 04/12 11:00 | direto |
+| R$ 3.290 | LATAM | 04/12 20:20 | 04/12 22:05 | direto |
 
-## MVD→GRU seg 30/11 — 14 voos
+## VCP→BSB sex 04/12 — 11 voos
 
-[abrir no Google Flights](https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTEtMzAoAWoFEgNNVkRyBRIDR1JVQgEBSAGYAQI=&hl=pt-BR&curr=BRL)
-
-| Preço | Cia(s) | Sai | Chega | Paradas |
-|---|---|---|---|---|
-| R$ 2.390 | Gol | 30/11 10:35 | 30/11 13:05 | direto |
-| R$ 2.520 | Gol | 30/11 02:35 | 30/11 08:05 | 1 parada(s) |
-| R$ 2.520 | Gol | 30/11 04:35 | 30/11 09:55 | 1 parada(s) |
-| R$ 2.931 | Gol | 30/11 06:40 | 30/11 09:25 | direto |
-| R$ 2.983 | Gol | 30/11 17:50 | 30/11 20:15 | direto |
-| R$ 3.926 | Aerolineas Argentinas | 30/11 21:35 | 01/12 14:40 | 1 parada(s) |
-| R$ 4.965 | Aerolineas Argentinas | 30/11 21:35 | 01/12 09:10 | 1 parada(s) |
-| R$ 5.387 | LATAM | 30/11 07:40 | 30/11 20:05 | 1 parada(s) |
-| R$ 6.163 | Gol | 30/11 05:15 | 30/11 07:45 | direto |
-| R$ 6.163 | Gol | 30/11 13:15 | 30/11 15:45 | direto |
-| R$ 6.347 | LATAM | 30/11 18:40 | 30/11 21:10 | direto |
-| R$ 6.347 | LATAM | 30/11 02:15 | 30/11 04:50 | direto |
-| R$ 6.347 | LATAM | 30/11 11:55 | 30/11 14:30 | direto |
-| R$ 6.347 | LATAM | 30/11 17:15 | 30/11 19:50 | direto |
-
-## MVD→GRU ter 01/12 — 14 voos
-
-[abrir no Google Flights](https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTItMDEoAWoFEgNNVkRyBRIDR1JVQgEBSAGYAQI=&hl=pt-BR&curr=BRL)
-
-| Preço | Cia(s) | Sai | Chega | Paradas |
-|---|---|---|---|---|
-| R$ 2.520 | Gol | 01/12 12:30 | 01/12 18:25 | 1 parada(s) |
-| R$ 2.782 | Aerolineas Argentinas | 01/12 21:35 | 03/12 09:10 | 1 parada(s) |
-| R$ 2.841 | Aerolineas Argentinas | 01/12 21:35 | 02/12 14:40 | 1 parada(s) |
-| R$ 3.271 | Aerolineas Argentinas | 01/12 09:45 | 01/12 22:45 | 1 parada(s) |
-| R$ 3.271 | Aerolineas Argentinas | 01/12 21:35 | 02/12 09:10 | 1 parada(s) |
-| R$ 3.370 | Gol | 01/12 04:35 | 01/12 16:40 | 1 parada(s) |
-| R$ 3.827 | Gol | 01/12 13:15 | 01/12 15:45 | direto |
-| R$ 3.941 | Aerolineas Argentinas | 01/12 13:35 | 01/12 22:45 | 1 parada(s) |
-| R$ 4.829 | Aerolineas Argentinas, Gol | 01/12 09:45 | 01/12 16:25 | 1 parada(s) |
-| R$ 5.387 | LATAM | 01/12 07:40 | 02/12 04:15 | 1 parada(s) |
-| R$ 6.347 | LATAM | 01/12 17:15 | 01/12 19:40 | direto |
-| R$ 6.347 | LATAM | 01/12 18:40 | 01/12 21:10 | direto |
-| R$ 6.347 | LATAM | 01/12 11:55 | 01/12 14:30 | direto |
-| R$ 6.347 | LATAM | 01/12 02:15 | 01/12 04:50 | direto |
-
-## MVD→CWB seg 30/11 — 8 voos
-
-[abrir no Google Flights](https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTEtMzAoAWoFEgNNVkRyBRIDQ1dCQgEBSAGYAQI=&hl=pt-BR&curr=BRL)
+[abrir no Google Flights](https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTItMDQoAWoFEgNWQ1ByBRIDQlNCQgEBSAGYAQI=&hl=pt-BR&curr=BRL)
 
 | Preço | Cia(s) | Sai | Chega | Paradas |
 |---|---|---|---|---|
-| R$ 2.205 | Gol | 30/11 08:20 | 30/11 18:15 | 1 parada(s) |
-| R$ 2.795 | Gol | 30/11 10:35 | 01/12 10:20 | 1 parada(s) |
-| R$ 3.174 | Gol | 30/11 13:15 | 01/12 10:20 | 1 parada(s) |
-| R$ 3.376 | Aerolineas Argentinas | 30/11 21:35 | 02/12 07:50 | 1 parada(s) |
-| R$ 6.230 | Gol | 30/11 17:50 | 30/11 23:50 | 1 parada(s) |
-| R$ 6.230 | Gol | 30/11 13:15 | 30/11 18:55 | 1 parada(s) |
-| R$ 6.230 | Gol | 30/11 05:15 | 30/11 10:30 | 1 parada(s) |
-| R$ 6.230 | Gol | 30/11 04:35 | 30/11 10:10 | 1 parada(s) |
+| R$ 1.602 | LATAM | 04/12 11:40 | 04/12 13:15 | direto |
+| R$ 1.602 | LATAM | 04/12 06:00 | 04/12 07:35 | direto |
+| R$ 1.631 | Azul | 04/12 06:05 | 04/12 07:40 | direto |
+| R$ 1.651 | Gol | 04/12 18:00 | 04/12 19:40 | direto |
+| R$ 1.665 | LATAM | 04/12 18:20 | 04/12 19:55 | direto |
+| R$ 1.686 | Azul | 04/12 08:10 | 04/12 09:45 | direto |
+| R$ 1.990 | Azul | 04/12 14:00 | 04/12 15:35 | direto |
+| R$ 2.073 | Azul | 04/12 17:05 | 04/12 18:40 | direto |
+| R$ 2.073 | Azul | 04/12 21:45 | 04/12 23:20 | direto |
+| R$ 2.073 | Azul | 04/12 23:15 | 05/12 00:50 | direto |
+| R$ 2.150 | Azul | 04/12 11:00 | 04/12 12:35 | direto |
 
-## MVD→CWB ter 01/12 — 7 voos
+## GRU→BSB sáb 05/12 — 0 voos
 
-[abrir no Google Flights](https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTItMDEoAWoFEgNNVkRyBRIDQ1dCQgEBSAGYAQI=&hl=pt-BR&curr=BRL)
 
-| Preço | Cia(s) | Sai | Chega | Paradas |
-|---|---|---|---|---|
-| R$ 2.205 | Gol | 01/12 13:15 | 01/12 23:55 | 1 parada(s) |
-| R$ 2.244 | Gol | 01/12 04:35 | 01/12 17:30 | 1 parada(s) |
-| R$ 2.244 | Gol | 01/12 12:30 | 01/12 22:50 | 1 parada(s) |
-| R$ 2.254 | Aerolineas Argentinas | 01/12 21:35 | 02/12 07:50 | 1 parada(s) |
-| R$ 6.230 | Gol | 01/12 13:15 | 01/12 18:55 | 1 parada(s) |
-| R$ 6.230 | Gol | 01/12 04:35 | 01/12 10:10 | 1 parada(s) |
-| R$ 6.230 | Gol | 01/12 12:30 | 01/12 18:15 | 1 parada(s) |
+## CGH→BSB sáb 05/12 — 14 voos
 
-## MVD→POA seg 30/11 — 7 voos
-
-[abrir no Google Flights](https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTEtMzAoAWoFEgNNVkRyBRIDUE9BQgEBSAGYAQI=&hl=pt-BR&curr=BRL)
+[abrir no Google Flights](https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTItMDUoAWoFEgNDR0hyBRIDQlNCQgEBSAGYAQI=&hl=pt-BR&curr=BRL)
 
 | Preço | Cia(s) | Sai | Chega | Paradas |
 |---|---|---|---|---|
-| R$ 2.135 | Gol | 30/11 05:15 | 30/11 11:00 | 1 parada(s) |
-| R$ 2.135 | Gol | 30/11 06:40 | 30/11 15:00 | 1 parada(s) |
-| R$ 2.339 | Gol | 30/11 01:10 | 30/11 08:10 | 1 parada(s) |
-| R$ 2.420 | Gol | 30/11 13:15 | 30/11 18:55 | 1 parada(s) |
-| R$ 3.019 | Aerolineas Argentinas | 30/11 21:35 | 01/12 20:10 | 1 parada(s) |
-| R$ 3.072 | Gol | 30/11 17:50 | 01/12 00:30 | 1 parada(s) |
-| R$ 3.180 | Gol | 30/11 08:20 | 30/11 16:45 | 1 parada(s) |
+| R$ 2.427 | Gol | 05/12 18:20 | 05/12 20:05 | direto |
+| R$ 2.842 | LATAM | 05/12 20:20 | 05/12 22:05 | direto |
+| R$ 2.893 | Azul | 05/12 17:30 | 05/12 19:15 | direto |
+| R$ 2.893 | Azul | 05/12 21:45 | 05/12 23:35 | direto |
+| R$ 3.105 | LATAM | 05/12 07:15 | 05/12 09:00 | direto |
+| R$ 3.290 | Gol | 05/12 06:05 | 05/12 07:50 | direto |
+| R$ 3.290 | Gol | 05/12 08:05 | 05/12 09:50 | direto |
+| R$ 3.290 | LATAM | 05/12 09:30 | 05/12 11:15 | direto |
+| R$ 3.290 | LATAM | 05/12 10:55 | 05/12 12:40 | direto |
+| R$ 3.290 | Gol | 05/12 12:30 | 05/12 14:15 | direto |
+| R$ 3.290 | LATAM | 05/12 13:25 | 05/12 15:10 | direto |
+| R$ 3.290 | LATAM | 05/12 15:50 | 05/12 17:35 | direto |
+| R$ 3.290 | Gol | 05/12 16:25 | 05/12 18:10 | direto |
+| R$ 3.315 | Azul | 05/12 06:50 | 05/12 08:35 | direto |
+
+## VCP→BSB sáb 05/12 — 7 voos
+
+[abrir no Google Flights](https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTItMDUoAWoFEgNWQ1ByBRIDQlNCQgEBSAGYAQI=&hl=pt-BR&curr=BRL)
+
+| Preço | Cia(s) | Sai | Chega | Paradas |
+|---|---|---|---|---|
+| R$ 1.986 | Gol | 05/12 18:00 | 05/12 19:35 | direto |
+| R$ 2.421 | LATAM | 05/12 06:00 | 05/12 07:35 | direto |
+| R$ 3.139 | Azul | 05/12 08:10 | 05/12 09:45 | direto |
+| R$ 3.139 | Azul | 05/12 21:45 | 05/12 23:20 | direto |
+| R$ 3.140 | LATAM | 05/12 11:40 | 05/12 13:15 | direto |
+| R$ 3.140 | LATAM | 05/12 17:45 | 05/12 19:20 | direto |
+| R$ 4.150 | Azul | 05/12 13:15 | 05/12 14:50 | direto |
+
+## GRU→GYN sex 04/12 — 9 voos
+
+[abrir no Google Flights](https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTItMDQoAWoFEgNHUlVyBRIDR1lOQgEBSAGYAQI=&hl=pt-BR&curr=BRL)
+
+| Preço | Cia(s) | Sai | Chega | Paradas |
+|---|---|---|---|---|
+| R$ 865 | Gol | 04/12 09:15 | 04/12 10:55 | direto |
+| R$ 865 | LATAM | 04/12 11:25 | 04/12 13:05 | direto |
+| R$ 865 | Gol | 04/12 17:00 | 04/12 18:40 | direto |
+| R$ 865 | LATAM | 04/12 17:25 | 04/12 19:05 | direto |
+| R$ 865 | Gol | 04/12 21:55 | 04/12 23:35 | direto |
+| R$ 865 | Gol | 04/12 05:25 | 04/12 10:10 | 1 parada(s) |
+| R$ 865 | Gol | 04/12 19:15 | 04/12 23:10 | 1 parada(s) |
+| R$ 944 | LATAM | 04/12 07:20 | 04/12 08:55 | direto |
+| R$ 1.038 | LATAM | 04/12 22:50 | 05/12 00:30 | direto |
+
+## CGH→GYN sex 04/12 — 11 voos
+
+[abrir no Google Flights](https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTItMDQoAWoFEgNDR0hyBRIDR1lOQgEBSAGYAQI=&hl=pt-BR&curr=BRL)
+
+| Preço | Cia(s) | Sai | Chega | Paradas |
+|---|---|---|---|---|
+| R$ 902 | LATAM | 04/12 06:30 | 04/12 08:10 | direto |
+| R$ 902 | LATAM | 04/12 15:30 | 04/12 17:10 | direto |
+| R$ 902 | Gol | 04/12 17:40 | 04/12 19:20 | direto |
+| R$ 902 | Gol | 04/12 18:50 | 04/12 20:30 | direto |
+| R$ 902 | Gol | 04/12 09:35 | 04/12 11:20 | direto |
+| R$ 902 | Gol | 04/12 13:55 | 04/12 15:40 | direto |
+| R$ 902 | Gol | 04/12 07:25 | 04/12 09:10 | direto |
+| R$ 902 | Gol | 04/12 16:45 | 04/12 18:30 | direto |
+| R$ 1.065 | LATAM | 04/12 08:40 | 04/12 10:20 | direto |
+| R$ 1.633 | LATAM | 04/12 12:45 | 04/12 14:25 | direto |
+| R$ 2.865 | LATAM | 04/12 22:15 | 04/12 23:55 | direto |
+
+## VCP→GYN sex 04/12 — 0 voos
+
+
+## BSB→GRU dom 06/12 — 12 voos
+
+[abrir no Google Flights](https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTItMDYoAWoFEgNCU0JyBRIDR1JVQgEBSAGYAQI=&hl=pt-BR&curr=BRL)
+
+| Preço | Cia(s) | Sai | Chega | Paradas |
+|---|---|---|---|---|
+| R$ 936 | Azul | 06/12 06:25 | 06/12 09:45 | 1 parada(s) |
+| R$ 1.083 | Gol | 06/12 11:45 | 06/12 13:30 | direto |
+| R$ 1.083 | LATAM | 06/12 12:10 | 06/12 13:55 | direto |
+| R$ 1.083 | LATAM | 06/12 06:35 | 06/12 08:20 | direto |
+| R$ 1.083 | LATAM | 06/12 04:15 | 06/12 06:05 | direto |
+| R$ 1.083 | Gol | 06/12 06:05 | 06/12 07:55 | direto |
+| R$ 1.167 | LATAM | 06/12 17:10 | 06/12 19:00 | direto |
+| R$ 1.169 | LATAM | 06/12 08:55 | 06/12 10:40 | direto |
+| R$ 1.246 | Gol | 06/12 19:10 | 06/12 20:55 | direto |
+| R$ 3.245 | LATAM | 06/12 20:30 | 06/12 22:25 | direto |
+| R$ 3.262 | Gol | 06/12 21:00 | 06/12 22:45 | direto |
+| R$ 3.878 | Azul | 06/12 15:30 | 06/12 18:40 | 1 parada(s) |
+
+## BSB→CGH dom 06/12 — 0 voos
+
+
+## BSB→VCP dom 06/12 — 8 voos
+
+[abrir no Google Flights](https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTItMDYoAWoFEgNCU0JyBRIDVkNQQgEBSAGYAQI=&hl=pt-BR&curr=BRL)
+
+| Preço | Cia(s) | Sai | Chega | Paradas |
+|---|---|---|---|---|
+| R$ 906 | LATAM | 06/12 09:20 | 06/12 11:00 | direto |
+| R$ 907 | LATAM | 06/12 15:25 | 06/12 17:00 | direto |
+| R$ 945 | Azul | 06/12 05:00 | 06/12 06:40 | direto |
+| R$ 1.109 | Azul | 06/12 10:30 | 06/12 12:10 | direto |
+| R$ 1.778 | Azul | 06/12 15:30 | 06/12 17:15 | direto |
+| R$ 1.908 | LATAM | 06/12 20:45 | 06/12 22:20 | direto |
+| R$ 2.888 | Azul | 06/12 20:20 | 06/12 22:00 | direto |
+| R$ 3.432 | Gol | 06/12 08:45 | 06/12 10:20 | direto |
+
+## BSB→GRU seg 07/12 — 12 voos
+
+[abrir no Google Flights](https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTItMDcoAWoFEgNCU0JyBRIDR1JVQgEBSAGYAQI=&hl=pt-BR&curr=BRL)
+
+| Preço | Cia(s) | Sai | Chega | Paradas |
+|---|---|---|---|---|
+| R$ 2.399 | LATAM | 07/12 12:30 | 07/12 14:15 | direto |
+| R$ 3.007 | Gol | 07/12 05:40 | 07/12 07:20 | direto |
+| R$ 3.007 | LATAM | 07/12 06:45 | 07/12 08:30 | direto |
+| R$ 3.007 | Gol | 07/12 11:45 | 07/12 13:30 | direto |
+| R$ 3.007 | LATAM | 07/12 20:35 | 07/12 22:30 | direto |
+| R$ 3.108 | Azul | 07/12 19:25 | 07/12 23:05 | 1 parada(s) |
+| R$ 3.262 | Gol | 07/12 21:35 | 07/12 23:10 | direto |
+| R$ 3.262 | LATAM | 07/12 08:50 | 07/12 10:35 | direto |
+| R$ 3.262 | LATAM | 07/12 04:35 | 07/12 06:25 | direto |
+| R$ 3.262 | LATAM | 07/12 17:50 | 07/12 19:40 | direto |
+| R$ 3.262 | Gol | 07/12 19:00 | 07/12 20:50 | direto |
+| R$ 3.878 | Azul | 07/12 05:35 | 07/12 09:10 | 1 parada(s) |
+
+## BSB→CGH seg 07/12 — 0 voos
+
+
+## BSB→VCP seg 07/12 — 11 voos
+
+[abrir no Google Flights](https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTItMDcoAWoFEgNCU0JyBRIDVkNQQgEBSAGYAQI=&hl=pt-BR&curr=BRL)
+
+| Preço | Cia(s) | Sai | Chega | Paradas |
+|---|---|---|---|---|
+| R$ 2.888 | Azul | 07/12 05:00 | 07/12 06:40 | direto |
+| R$ 2.888 | Azul | 07/12 13:15 | 07/12 14:55 | direto |
+| R$ 2.888 | Azul | 07/12 16:40 | 07/12 18:20 | direto |
+| R$ 2.888 | Azul | 07/12 19:20 | 07/12 21:00 | direto |
+| R$ 3.141 | LATAM | 07/12 15:25 | 07/12 17:00 | direto |
+| R$ 3.141 | LATAM | 07/12 20:45 | 07/12 22:20 | direto |
+| R$ 3.141 | LATAM | 07/12 09:20 | 07/12 11:00 | direto |
+| R$ 3.432 | Gol | 07/12 09:05 | 07/12 10:45 | direto |
+| R$ 3.621 | Azul | 07/12 06:05 | 07/12 07:45 | direto |
+| R$ 3.621 | Azul | 07/12 08:20 | 07/12 10:00 | direto |
+| R$ 4.151 | Azul | 07/12 10:25 | 07/12 12:05 | direto |
