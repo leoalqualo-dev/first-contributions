@@ -476,10 +476,19 @@ def consulta(cfg: dict, arquivo: Path) -> int:
         if len(partes) != 3:
             continue
         o, de, d = partes
-        try:
-            voos = sorted(pesquisar(cfg, [(o, de, d)], "one-way"), key=lambda v: (v.preco, v.duracao_min))
-        except Exception as e:  # noqa: BLE001
-            L += [f"## {o}→{de} {_formatar_data(d)}", "", f"Erro na busca: {e}", ""]
+        voos, erro = [], None
+        # Resposta vazia costuma ser bloqueio temporário do Google: tenta de novo com espera maior
+        for tentativa in range(4):
+            try:
+                voos = sorted(pesquisar(cfg, [(o, de, d)], "one-way"), key=lambda v: (v.preco, v.duracao_min))
+                erro = None
+            except Exception as e:  # noqa: BLE001
+                erro = e
+            if voos:
+                break
+            time.sleep(15 * (tentativa + 1))
+        if erro and not voos:
+            L += [f"## {o}→{de} {_formatar_data(d)}", "", f"Erro na busca: {erro}", ""]
             continue
         print(f"{o}→{de} {d}: {len(voos)} voos" + (f", a partir de {_reais(voos[0].preco)}" if voos else ""))
         L += [f"## {o}→{de} {_formatar_data(d)} — {len(voos)} voos", ""]

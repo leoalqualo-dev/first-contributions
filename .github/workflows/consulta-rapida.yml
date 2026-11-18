@@ -11,7 +11,7 @@ permissions:
 jobs:
   consultar:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 40
     defaults:
       run:
         working-directory: passagens-libertadores
