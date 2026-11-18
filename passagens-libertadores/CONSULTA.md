@@ -1,4 +1,4 @@
-# Consulta rápida — 18/11/2026 11:02
+# Consulta rápida — 18/11/2026 11:04
 
 Todos os voos encontrados para cada trecho (1 adulto, Google Flights). Edite `consulta.txt` para mudar.
 
@@ -14,35 +14,8 @@ Todos os voos encontrados para cada trecho (1 adulto, Google Flights). Edite `co
 ## GRU→BSB dom 06/12 — 0 voos
 
 
-## CGH→BSB dom 06/12 — 23 voos
+## CGH→BSB dom 06/12 — 0 voos
 
-[abrir no Google Flights](https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTItMDYoAWoFEgNDR0hyBRIDQlNCQgEBSAGYAQI=&hl=pt-BR&curr=BRL)
-
-| Preço | Cia(s) | Sai | Chega | Paradas |
-|---|---|---|---|---|
-| R$ 1.626 | Gol | 06/12 20:25 | 06/12 22:10 | direto |
-| R$ 1.626 | Gol | 06/12 21:55 | 06/12 23:40 | direto |
-| R$ 1.751 | Azul | 06/12 14:25 | 06/12 16:15 | direto |
-| R$ 1.862 | Azul | 06/12 20:20 | 06/12 22:05 | direto |
-| R$ 1.957 | Gol | 06/12 06:40 | 06/12 08:25 | direto |
-| R$ 1.957 | Gol | 06/12 17:00 | 06/12 18:45 | direto |
-| R$ 2.235 | Gol | 06/12 06:10 | 06/12 07:55 | direto |
-| R$ 2.235 | Gol | 06/12 13:35 | 06/12 15:20 | direto |
-| R$ 2.235 | Gol | 06/12 15:55 | 06/12 17:40 | direto |
-| R$ 2.235 | Gol | 06/12 18:30 | 06/12 20:15 | direto |
-| R$ 2.427 | Gol | 06/12 09:15 | 06/12 11:00 | direto |
-| R$ 2.842 | Gol | 06/12 08:05 | 06/12 09:50 | direto |
-| R$ 2.842 | LATAM | 06/12 08:15 | 06/12 10:00 | direto |
-| R$ 2.842 | Gol | 06/12 11:50 | 06/12 13:35 | direto |
-| R$ 2.842 | LATAM | 06/12 15:10 | 06/12 16:55 | direto |
-| R$ 2.842 | LATAM | 06/12 17:10 | 06/12 18:55 | direto |
-| R$ 2.842 | LATAM | 06/12 18:25 | 06/12 20:10 | direto |
-| R$ 2.842 | LATAM | 06/12 19:45 | 06/12 21:30 | direto |
-| R$ 2.842 | LATAM | 06/12 21:00 | 06/12 22:45 | direto |
-| R$ 3.105 | LATAM | 06/12 07:00 | 06/12 08:45 | direto |
-| R$ 3.105 | LATAM | 06/12 13:00 | 06/12 14:45 | direto |
-| R$ 3.290 | LATAM | 06/12 09:25 | 06/12 11:10 | direto |
-| R$ 3.290 | LATAM | 06/12 10:40 | 06/12 12:25 | direto |
 
 ## VCP→BSB dom 06/12 — 8 voos
 
@@ -86,5 +59,6 @@ Todos os voos encontrados para cada trecho (1 adulto, Google Flights). Edite `co
 ## BSB→CGH seg 07/12 — 0 voos
 
 
-## BSB→VCP seg 07/12 — 0 voos
+## BSB→VCP seg 07/12
 
+Erro na busca: página sem dados de voos (possível bloqueio temporário do Google)
