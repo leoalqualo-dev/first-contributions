@@ -2,20 +2,21 @@
 # Salvar (push) este arquivo dispara a consulta no GitHub; o resultado vai para CONSULTA.md
 # Final da Copa do Brasil — Brasília, dom 06/12/2026
 
-# Ida para Brasília: sexta 04/12 e sábado 05/12
-GRU BSB 2026-12-04
-CGH BSB 2026-12-04
-VCP BSB 2026-12-04
+# Ida: sábado 05/12 (madrugada) e domingo 06/12 (manhã)
 GRU BSB 2026-12-05
 CGH BSB 2026-12-05
 VCP BSB 2026-12-05
+GRU BSB 2026-12-06
+CGH BSB 2026-12-06
+VCP BSB 2026-12-06
 
 # Ida alternativa por Goiânia (~2h30 de ônibus até Brasília)
-GRU GYN 2026-12-04
-CGH GYN 2026-12-04
-VCP GYN 2026-12-04
+GRU GYN 2026-12-05
+CGH GYN 2026-12-05
+GRU GYN 2026-12-06
+CGH GYN 2026-12-06
 
-# Volta para São Paulo: domingo 06/12 (noite) e segunda 07/12
+# Volta: domingo 06/12 (noite) e segunda 07/12 (manhã)
 BSB GRU 2026-12-06
 BSB CGH 2026-12-06
 BSB VCP 2026-12-06
