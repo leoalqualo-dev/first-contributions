@@ -69,3 +69,13 @@ quando,posicao,tipo,descricao,passagens,extras,total,cias
 2026-11-10T13:58,8,trechos separados,CWB→MVD qua 25/11 / PDP→GIG ter 01/12,3331,365,3696,Aerolineas Argentinas/Gol
 2026-11-10T13:58,9,trechos separados,GRU→AEP qua 25/11 / MVD→GIG seg 30/11,2595,1190,3785,Aerolineas Argentinas/LATAM
 2026-11-10T13:58,10,trechos separados,GRU→AEP qua 25/11 / PDP→POA ter 01/12,2396,1415,3811,Aerolineas Argentinas/LATAM
+2026-11-18T11:02,1,trechos separados,POA→EZE qua 25/11 / PDP→CWB ter 01/12,3361,1615,4976,Aerolineas Argentinas/LATAM
+2026-11-18T11:02,2,trechos separados,POA→EZE qua 25/11 / PDP→POA ter 01/12,3204,1775,4979,Aerolineas Argentinas/LATAM
+2026-11-18T11:02,3,ida e volta,GIG⇄MVD ida qui 26/11 / volta ter 01/12,4938,300,5238,Gol
+2026-11-18T11:02,4,trechos separados,POA→EZE qua 25/11 / PDP→GIG ter 01/12,3648,1625,5273,Aerolineas Argentinas/LATAM
+2026-11-18T11:02,5,trechos separados,POA→EZE qua 25/11 / MVD→CWB seg 30/11,4008,1540,5548,Gol/LATAM
+2026-11-18T11:02,6,trechos separados,POA→EZE qua 25/11 / MVD→CNF ter 01/12,4008,1575,5583,Gol/LATAM
+2026-11-18T11:02,7,trechos separados,POA→EZE qua 25/11 / MVD→POA ter 01/12,3933,1700,5633,Gol/LATAM
+2026-11-18T11:02,8,trechos separados,POA→EZE qua 25/11 / MVD→BSB ter 01/12,4008,1700,5708,Gol/LATAM
+2026-11-18T11:02,9,trechos separados,POA→EZE qua 25/11 / AEP→GIG ter 01/12,3220,2550,5770,LATAM
+2026-11-18T11:02,10,trechos separados,POA→EZE qua 25/11 / MVD→GRU ter 01/12,4346,1440,5786,Gol/LATAM

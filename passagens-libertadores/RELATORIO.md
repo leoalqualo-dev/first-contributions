@@ -1,6 +1,6 @@
 # 🐷💚 Passagens para a final da Libertadores — Montevidéu, 28/11/2026
 
-Última pesquisa: **10/11/2026 13:58** (horário de Brasília) · 328 buscas ok, 0 com erro · 1 adulto(s)
+Última pesquisa: **18/11/2026 11:02** (horário de Brasília) · 328 buscas ok, 0 com erro · 1 adulto(s)
 
 Total = passagens + deslocamento até o aeroporto de saída + traslado até Montevidéu (valores do `config.json`). Preços do Google Flights; confira sempre no site da companhia antes de comprar.
 
@@ -8,74 +8,74 @@ Total = passagens + deslocamento até o aeroporto de saída + traslado até Mont
 
 ## Variações desde a última pesquisa
 
-- 📉 caiu 25%: GRU→AEP qua 25/11 / PDP→GIG ter 01/12 — R$ 4.450 → R$ 3.348
-- 📉 caiu 23%: GRU→MVD qua 25/11 / PDP→GIG ter 01/12 — R$ 4.656 → R$ 3.569
-- 📉 caiu 28%: POA→AEP qua 25/11 / PDP→GIG ter 01/12 — R$ 4.980 → R$ 3.583
-- 📉 caiu 19%: POA→AEP sex 27/11 / PDP→GIG ter 01/12 — R$ 4.437 → R$ 3.583
-- 📉 caiu 8%: GIG→AEP qua 25/11 / PDP→GIG ter 01/12 — R$ 3.958 → R$ 3.654
-- 📉 caiu 16%: CWB→PDP qua 25/11 / PDP→GIG ter 01/12 — R$ 4.325 → R$ 3.654
-- 📉 caiu 7%: CWB→MVD qua 25/11 / PDP→GIG ter 01/12 — R$ 3.963 → R$ 3.696
-- 📉 caiu 15%: GRU→AEP qua 25/11 / MVD→GIG seg 30/11 — R$ 4.440 → R$ 3.785
-- 📉 caiu 10%: GRU→AEP qua 25/11 / PDP→POA ter 01/12 — R$ 4.241 → R$ 3.811
-- 📉 caiu 9%: CWB→AEP qui 26/11 / PDP→GIG ter 01/12 — R$ 4.188 → R$ 3.814
-- 📉 caiu 16%: GRU→AEP qua 25/11 / PDP→GRU ter 01/12 — R$ 4.605 → R$ 3.848
-- 📉 caiu 18%: GRU→AEP qui 26/11 / PDP→GIG ter 01/12 — R$ 4.717 → R$ 3.861
-- 📉 caiu 11%: GRU→AEP sex 27/11 / PDP→GIG ter 01/12 — R$ 4.403 → R$ 3.918
-- 📉 caiu 17%: VCP→AEP qui 26/11 / PDP→GIG ter 01/12 — R$ 4.754 → R$ 3.934
-- 📉 caiu 9%: FLN→MVD qua 25/11 / PDP→GIG ter 01/12 — R$ 4.355 → R$ 3.954
-- 📉 caiu 12%: GIG→PDP qua 25/11 / PDP→GIG ter 01/12 — R$ 4.521 → R$ 3.961
-- 📉 caiu 9%: POA→MVD qui 26/11 / PDP→GIG ter 01/12 — R$ 4.367 → R$ 3.964
-- 📉 caiu 17%: GIG→EZE qua 25/11 / PDP→GIG ter 01/12 — R$ 4.816 → R$ 3.999
-- 📉 caiu 11%: POA→AEP qui 26/11 / PDP→GIG ter 01/12 — R$ 4.485 → R$ 3.999
-- 📉 caiu 14%: GRU→MVD qua 25/11 / MVD→GIG seg 30/11 — R$ 4.646 → R$ 4.006
+- 📈 subiu 8%: POA→EZE qua 25/11 / PDP→CWB ter 01/12 — R$ 4.595 → R$ 4.976
+- 📉 caiu 7%: GIG⇄MVD ida qui 26/11 / volta ter 01/12 — R$ 5.628 → R$ 5.238
+- 📈 subiu 23%: POA→EZE qua 25/11 / PDP→GIG ter 01/12 — R$ 4.297 → R$ 5.273
+- 📈 subiu 6%: POA→EZE qua 25/11 / MVD→CWB seg 30/11 — R$ 5.250 → R$ 5.548
+- 📈 subiu 8%: POA→EZE qua 25/11 / MVD→CNF ter 01/12 — R$ 5.180 → R$ 5.583
+- 📈 subiu 8%: POA→EZE qua 25/11 / MVD→POA ter 01/12 — R$ 5.233 → R$ 5.633
+- 📈 subiu 8%: POA→EZE qua 25/11 / MVD→BSB ter 01/12 — R$ 5.305 → R$ 5.708
+- 📈 subiu 7%: POA→EZE qua 25/11 / AEP→GIG ter 01/12 — R$ 5.395 → R$ 5.770
+- 📈 subiu 8%: POA→EZE qua 25/11 / MVD→GRU ter 01/12 — R$ 5.371 → R$ 5.786
+- 📈 subiu 5%: POA→EZE qua 25/11 / EZE→GIG ter 01/12 — R$ 5.573 → R$ 5.870
+- 📉 caiu 17%: GRU→MVD sex 27/11 / PDP→CWB ter 01/12 — R$ 7.341 → R$ 6.087
+- 📉 caiu 19%: GRU→MVD sex 27/11 / PDP→POA ter 01/12 — R$ 7.506 → R$ 6.090
+- 📈 subiu 11%: POA→EZE qua 25/11 / AEP→GIG seg 30/11 — R$ 5.512 → R$ 6.142
+- 📈 subiu 7%: POA→EZE qua 25/11 / EZE→GRU ter 01/12 — R$ 5.759 → R$ 6.146
+- 📈 subiu 11%: POA→EZE qua 25/11 / AEP→GRU seg 30/11 — R$ 5.626 → R$ 6.231
+- 📉 caiu 9%: GRU→MVD sex 27/11 / PDP→GIG ter 01/12 — R$ 7.043 → R$ 6.384
+- 📈 subiu 15%: POA→EZE qua 25/11 / EZE→FLN ter 01/12 — R$ 5.625 → R$ 6.447
+- 📈 subiu 50%: GRU⇄MVD ida qua 25/11 / volta ter 01/12 — R$ 4.335 → R$ 6.495
+- 📈 subiu 8%: POA→EZE qua 25/11 / EZE→POA seg 30/11 — R$ 6.003 → R$ 6.503
+- 📈 subiu 31%: POA→EZE qua 25/11 / MVD→POA seg 30/11 — R$ 5.040 → R$ 6.579
 
 ## Top 15 opções agora
 
 | # | Total | Passagens | Extras | Tipo | Roteiro | Obs. |
 |---|---|---|---|---|---|---|
-| 1 | **R$ 3.348** | R$ 2.083 | R$ 1.265 | trechos separados | GRU→AEP qua 25/11 / PDP→GIG ter 01/12 | ida via Buenos Aires Aeroparque (+ barco até Montevidéu); volta via Punta del Este (ônibus ~2h até Montevidéu); sai de GRU e volta para GIG |
-| 2 | **R$ 3.569** | R$ 3.304 | R$ 265 | trechos separados | GRU→MVD qua 25/11 / PDP→GIG ter 01/12 | volta via Punta del Este (ônibus ~2h até Montevidéu); sai de GRU e volta para GIG |
-| 3 | **R$ 3.583** | R$ 2.058 | R$ 1.525 | trechos separados | POA→AEP qua 25/11 / PDP→GIG ter 01/12 | ida via Buenos Aires Aeroparque (+ barco até Montevidéu); volta via Punta del Este (ônibus ~2h até Montevidéu); sai de POA e volta para GIG |
-| 4 | **R$ 3.583** | R$ 2.058 | R$ 1.525 | trechos separados | POA→AEP sex 27/11 / PDP→GIG ter 01/12 | ida via Buenos Aires Aeroparque (+ barco até Montevidéu); volta via Punta del Este (ônibus ~2h até Montevidéu); sai de POA e volta para GIG |
-| 5 | **R$ 3.646** | R$ 2.391 | R$ 1.255 | trechos separados | GRU→AEP qua 25/11 / PDP→CWB ter 01/12 | ida via Buenos Aires Aeroparque (+ barco até Montevidéu); volta via Punta del Este (ônibus ~2h até Montevidéu); sai de GRU e volta para CWB |
-| 6 | **R$ 3.654** | R$ 2.279 | R$ 1.375 | trechos separados | GIG→AEP qua 25/11 / PDP→GIG ter 01/12 | ida via Buenos Aires Aeroparque (+ barco até Montevidéu); volta via Punta del Este (ônibus ~2h até Montevidéu) |
-| 7 | **R$ 3.654** | R$ 3.214 | R$ 440 | trechos separados | CWB→PDP qua 25/11 / PDP→GIG ter 01/12 | ida via Punta del Este (ônibus ~2h até Montevidéu); volta via Punta del Este (ônibus ~2h até Montevidéu); sai de CWB e volta para GIG |
-| 8 | **R$ 3.696** | R$ 3.331 | R$ 365 | trechos separados | CWB→MVD qua 25/11 / PDP→GIG ter 01/12 | volta via Punta del Este (ônibus ~2h até Montevidéu); sai de CWB e volta para GIG |
-| 9 | **R$ 3.785** | R$ 2.595 | R$ 1.190 | trechos separados | GRU→AEP qua 25/11 / MVD→GIG seg 30/11 | ida via Buenos Aires Aeroparque (+ barco até Montevidéu); sai de GRU e volta para GIG |
-| 10 | **R$ 3.811** | R$ 2.396 | R$ 1.415 | trechos separados | GRU→AEP qua 25/11 / PDP→POA ter 01/12 | ida via Buenos Aires Aeroparque (+ barco até Montevidéu); volta via Punta del Este (ônibus ~2h até Montevidéu); sai de GRU e volta para POA |
-| 11 | **R$ 3.814** | R$ 2.449 | R$ 1.365 | trechos separados | CWB→AEP qui 26/11 / PDP→GIG ter 01/12 | ida via Buenos Aires Aeroparque (+ barco até Montevidéu); volta via Punta del Este (ônibus ~2h até Montevidéu); sai de CWB e volta para GIG |
-| 12 | **R$ 3.816** | R$ 3.416 | R$ 400 | trechos separados | CNF→MVD qua 25/11 / PDP→GIG ter 01/12 | volta via Punta del Este (ônibus ~2h até Montevidéu); sai de CNF e volta para GIG |
-| 13 | **R$ 3.835** | R$ 2.385 | R$ 1.450 | trechos separados | FLN→AEP qua 25/11 / PDP→GIG ter 01/12 | ida via Buenos Aires Aeroparque (+ barco até Montevidéu); volta via Punta del Este (ônibus ~2h até Montevidéu); sai de FLN e volta para GIG |
-| 14 | **R$ 3.848** | R$ 2.693 | R$ 1.155 | trechos separados | GRU→AEP qua 25/11 / PDP→GRU ter 01/12 | ida via Buenos Aires Aeroparque (+ barco até Montevidéu); volta via Punta del Este (ônibus ~2h até Montevidéu) |
-| 15 | **R$ 3.861** | R$ 2.596 | R$ 1.265 | trechos separados | GRU→AEP qui 26/11 / PDP→GIG ter 01/12 | ida via Buenos Aires Aeroparque (+ barco até Montevidéu); volta via Punta del Este (ônibus ~2h até Montevidéu); sai de GRU e volta para GIG |
+| 1 | **R$ 4.976** | R$ 3.361 | R$ 1.615 | trechos separados | POA→EZE qua 25/11 / PDP→CWB ter 01/12 | ida via Buenos Aires Ezeiza (+ barco até Montevidéu); volta via Punta del Este (ônibus ~2h até Montevidéu); sai de POA e volta para CWB |
+| 2 | **R$ 4.979** | R$ 3.204 | R$ 1.775 | trechos separados | POA→EZE qua 25/11 / PDP→POA ter 01/12 | ida via Buenos Aires Ezeiza (+ barco até Montevidéu); volta via Punta del Este (ônibus ~2h até Montevidéu) |
+| 3 | **R$ 5.238** | R$ 4.938 | R$ 300 | ida e volta | GIG⇄MVD ida qui 26/11 / volta ter 01/12 | — |
+| 4 | **R$ 5.273** | R$ 3.648 | R$ 1.625 | trechos separados | POA→EZE qua 25/11 / PDP→GIG ter 01/12 | ida via Buenos Aires Ezeiza (+ barco até Montevidéu); volta via Punta del Este (ônibus ~2h até Montevidéu); sai de POA e volta para GIG |
+| 5 | **R$ 5.548** | R$ 4.008 | R$ 1.540 | trechos separados | POA→EZE qua 25/11 / MVD→CWB seg 30/11 | ida via Buenos Aires Ezeiza (+ barco até Montevidéu); sai de POA e volta para CWB |
+| 6 | **R$ 5.583** | R$ 4.008 | R$ 1.575 | trechos separados | POA→EZE qua 25/11 / MVD→CNF ter 01/12 | ida via Buenos Aires Ezeiza (+ barco até Montevidéu); sai de POA e volta para CNF |
+| 7 | **R$ 5.633** | R$ 3.933 | R$ 1.700 | trechos separados | POA→EZE qua 25/11 / MVD→POA ter 01/12 | ida via Buenos Aires Ezeiza (+ barco até Montevidéu) |
+| 8 | **R$ 5.708** | R$ 4.008 | R$ 1.700 | trechos separados | POA→EZE qua 25/11 / MVD→BSB ter 01/12 | ida via Buenos Aires Ezeiza (+ barco até Montevidéu); sai de POA e volta para BSB |
+| 9 | **R$ 5.770** | R$ 3.220 | R$ 2.550 | trechos separados | POA→EZE qua 25/11 / AEP→GIG ter 01/12 | ida via Buenos Aires Ezeiza (+ barco até Montevidéu); volta via Buenos Aires Aeroparque (+ barco até Montevidéu); sai de POA e volta para GIG |
+| 10 | **R$ 5.786** | R$ 4.346 | R$ 1.440 | trechos separados | POA→EZE qua 25/11 / MVD→GRU ter 01/12 | ida via Buenos Aires Ezeiza (+ barco até Montevidéu); sai de POA e volta para GRU |
+| 11 | **R$ 5.870** | R$ 3.220 | R$ 2.650 | trechos separados | POA→EZE qua 25/11 / EZE→GIG ter 01/12 | ida via Buenos Aires Ezeiza (+ barco até Montevidéu); volta via Buenos Aires Ezeiza (+ barco até Montevidéu); sai de POA e volta para GIG |
+| 12 | **R$ 6.087** | R$ 5.832 | R$ 255 | trechos separados | GRU→MVD sex 27/11 / PDP→CWB ter 01/12 | volta via Punta del Este (ônibus ~2h até Montevidéu); sai de GRU e volta para CWB |
+| 13 | **R$ 6.090** | R$ 5.675 | R$ 415 | trechos separados | GRU→MVD sex 27/11 / PDP→POA ter 01/12 | volta via Punta del Este (ônibus ~2h até Montevidéu); sai de GRU e volta para POA |
+| 14 | **R$ 6.142** | R$ 3.592 | R$ 2.550 | trechos separados | POA→EZE qua 25/11 / AEP→GIG seg 30/11 | ida via Buenos Aires Ezeiza (+ barco até Montevidéu); volta via Buenos Aires Aeroparque (+ barco até Montevidéu); sai de POA e volta para GIG |
+| 15 | **R$ 6.146** | R$ 3.606 | R$ 2.540 | trechos separados | POA→EZE qua 25/11 / EZE→GRU ter 01/12 | ida via Buenos Aires Ezeiza (+ barco até Montevidéu); volta via Buenos Aires Ezeiza (+ barco até Montevidéu); sai de POA e volta para GRU |
 
 ## Detalhes das 5 melhores
 
-**1. GRU→AEP qua 25/11 / PDP→GIG ter 01/12 — R$ 3.348**
-- Ida: GRU→AEP · LATAM · sai 25/11 06:40 chega 25/11 17:00 · 1 parada(s) · 4h25 · R$ 723 · [abrir no Google Flights](https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTEtMjUoAWoFEgNHUlVyBRIDQUVQQgEBSAGYAQI=&hl=pt-BR&curr=BRL)
-- Volta: PDP→GIG · Aerolineas Argentinas · sai 01/12 11:30 chega 01/12 20:25 · 1 parada(s) · 3h55 · R$ 1.360 · [abrir no Google Flights](https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTItMDEoAWoFEgNQRFByBRIDR0lHQgEBSAGYAQI=&hl=pt-BR&curr=BRL)
+**1. POA→EZE qua 25/11 / PDP→CWB ter 01/12 — R$ 4.976**
+- Ida: POA→EZE · LATAM · sai 25/11 05:15 chega 25/11 16:00 · 1 parada(s) · 4h50 · R$ 1.630 · [abrir no Google Flights](https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTEtMjUoAWoFEgNQT0FyBRIDRVpFQgEBSAGYAQI=&hl=pt-BR&curr=BRL)
+- Volta: PDP→CWB · Aerolineas Argentinas · sai 01/12 21:20 chega 02/12 04:55 · 1 parada(s) · 3h10 · R$ 1.731 · [abrir no Google Flights](https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTItMDEoAWoFEgNQRFByBRIDQ1dCQgEBSAGYAQI=&hl=pt-BR&curr=BRL)
 
-**2. GRU→MVD qua 25/11 / PDP→GIG ter 01/12 — R$ 3.569**
-- Ida: GRU→MVD · Gol · sai 25/11 09:45 chega 25/11 12:25 · direto · 2h40 · R$ 1.944 · [abrir no Google Flights](https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTEtMjUoAWoFEgNHUlVyBRIDTVZEQgEBSAGYAQI=&hl=pt-BR&curr=BRL)
-- Volta: PDP→GIG · Aerolineas Argentinas · sai 01/12 11:30 chega 01/12 20:25 · 1 parada(s) · 3h55 · R$ 1.360 · [abrir no Google Flights](https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTItMDEoAWoFEgNQRFByBRIDR0lHQgEBSAGYAQI=&hl=pt-BR&curr=BRL)
+**2. POA→EZE qua 25/11 / PDP→POA ter 01/12 — R$ 4.979**
+- Ida: POA→EZE · LATAM · sai 25/11 05:15 chega 25/11 16:00 · 1 parada(s) · 4h50 · R$ 1.630 · [abrir no Google Flights](https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTEtMjUoAWoFEgNQT0FyBRIDRVpFQgEBSAGYAQI=&hl=pt-BR&curr=BRL)
+- Volta: PDP→POA · Aerolineas Argentinas · sai 01/12 11:30 chega 01/12 20:10 · 1 parada(s) · 2h40 · R$ 1.574 · [abrir no Google Flights](https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTItMDEoAWoFEgNQRFByBRIDUE9BQgEBSAGYAQI=&hl=pt-BR&curr=BRL)
 
-**3. POA→AEP qua 25/11 / PDP→GIG ter 01/12 — R$ 3.583**
-- Ida: POA→AEP · LATAM · sai 25/11 07:15 chega 25/11 09:00 · direto · 1h45 · R$ 698 · [abrir no Google Flights](https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTEtMjUoAWoFEgNQT0FyBRIDQUVQQgEBSAGYAQI=&hl=pt-BR&curr=BRL)
-- Volta: PDP→GIG · Aerolineas Argentinas · sai 01/12 11:30 chega 01/12 20:25 · 1 parada(s) · 3h55 · R$ 1.360 · [abrir no Google Flights](https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTItMDEoAWoFEgNQRFByBRIDR0lHQgEBSAGYAQI=&hl=pt-BR&curr=BRL)
+**3. GIG⇄MVD ida qui 26/11 / volta ter 01/12 — R$ 5.238**
+- Ida: GIG→MVD · Gol · sai 26/11 08:25 chega 26/11 11:35 · direto · 3h10 · R$ 4.938 · [abrir no Google Flights](https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTEtMjYoAWoFEgNHSUdyBRIDTVZEGhwSCjIwMjYtMTItMDEoAWoFEgNNVkRyBRIDR0lHQgEBSAGYAQE=&hl=pt-BR&curr=BRL)
+- (preço já inclui a volta — veja as opções de volta no link)
 
-**4. POA→AEP sex 27/11 / PDP→GIG ter 01/12 — R$ 3.583**
-- Ida: POA→AEP · LATAM · sai 27/11 07:15 chega 27/11 09:00 · direto · 1h45 · R$ 698 · [abrir no Google Flights](https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTEtMjcoAWoFEgNQT0FyBRIDQUVQQgEBSAGYAQI=&hl=pt-BR&curr=BRL)
-- Volta: PDP→GIG · Aerolineas Argentinas · sai 01/12 11:30 chega 01/12 20:25 · 1 parada(s) · 3h55 · R$ 1.360 · [abrir no Google Flights](https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTItMDEoAWoFEgNQRFByBRIDR0lHQgEBSAGYAQI=&hl=pt-BR&curr=BRL)
+**4. POA→EZE qua 25/11 / PDP→GIG ter 01/12 — R$ 5.273**
+- Ida: POA→EZE · LATAM · sai 25/11 05:15 chega 25/11 16:00 · 1 parada(s) · 4h50 · R$ 1.630 · [abrir no Google Flights](https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTEtMjUoAWoFEgNQT0FyBRIDRVpFQgEBSAGYAQI=&hl=pt-BR&curr=BRL)
+- Volta: PDP→GIG · Aerolineas Argentinas · sai 01/12 11:30 chega 01/12 20:25 · 1 parada(s) · 3h55 · R$ 2.018 · [abrir no Google Flights](https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTItMDEoAWoFEgNQRFByBRIDR0lHQgEBSAGYAQI=&hl=pt-BR&curr=BRL)
 
-**5. GRU→AEP qua 25/11 / PDP→CWB ter 01/12 — R$ 3.646**
-- Ida: GRU→AEP · LATAM · sai 25/11 06:40 chega 25/11 17:00 · 1 parada(s) · 4h25 · R$ 723 · [abrir no Google Flights](https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTEtMjUoAWoFEgNHUlVyBRIDQUVQQgEBSAGYAQI=&hl=pt-BR&curr=BRL)
-- Volta: PDP→CWB · Aerolineas Argentinas · sai 01/12 21:20 chega 02/12 04:55 · 1 parada(s) · 3h10 · R$ 1.668 · [abrir no Google Flights](https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTItMDEoAWoFEgNQRFByBRIDQ1dCQgEBSAGYAQI=&hl=pt-BR&curr=BRL)
+**5. POA→EZE qua 25/11 / MVD→CWB seg 30/11 — R$ 5.548**
+- Ida: POA→EZE · LATAM · sai 25/11 05:15 chega 25/11 16:00 · 1 parada(s) · 4h50 · R$ 1.630 · [abrir no Google Flights](https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTEtMjUoAWoFEgNQT0FyBRIDRVpFQgEBSAGYAQI=&hl=pt-BR&curr=BRL)
+- Volta: MVD→CWB · Gol · sai 30/11 04:35 chega 30/11 10:10 · 1 parada(s) · 4h15 · R$ 2.378 · [abrir no Google Flights](https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTEtMzAoAWoFEgNNVkRyBRIDQ1dCQgEBSAGYAQI=&hl=pt-BR&curr=BRL)
 
 ## Mais barato por dia de ida
 
 | Ida | Melhor total | Roteiro |
 |---|---|---|
-| qua 25/11 | R$ 3.348 | GRU→AEP qua 25/11 / PDP→GIG ter 01/12 |
-| qui 26/11 | R$ 3.814 | CWB→AEP qui 26/11 / PDP→GIG ter 01/12 |
-| sex 27/11 | R$ 3.583 | POA→AEP sex 27/11 / PDP→GIG ter 01/12 |
-| sáb 28/11 | R$ 6.382 | GIG→MVD sáb 28/11 / PDP→GIG ter 01/12 |
+| qua 25/11 | R$ 4.976 | POA→EZE qua 25/11 / PDP→CWB ter 01/12 |
+| qui 26/11 | R$ 5.238 | GIG⇄MVD ida qui 26/11 / volta ter 01/12 |
+| sex 27/11 | R$ 6.087 | GRU→MVD sex 27/11 / PDP→CWB ter 01/12 |
+| sáb 28/11 | R$ 7.071 | GRU⇄MVD ida sáb 28/11 / volta dom 29/11 |
