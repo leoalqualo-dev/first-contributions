@@ -46,5 +46,5 @@
     "preco_alvo": 3500
   },
 
-  "pausa_entre_buscas_segundos": 2.5
+  "pausa_entre_buscas_segundos": 6
 }

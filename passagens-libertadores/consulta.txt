@@ -1,6 +1,6 @@
 # Consulta rápida: uma linha por trecho -> ORIGEM DESTINO AAAA-MM-DD
 # Salvar (push) este arquivo dispara a consulta no GitHub; o resultado vai para CONSULTA.md
-# Final da Copa do Brasil — Brasília, dom 06/12/2026
+# Final da Copa do Brasil — Brasília, dom 06/12/2026 (nova tentativa)
 
 # Ida: sábado 05/12 (madrugada) e domingo 06/12 (manhã)
 GRU BSB 2026-12-05
